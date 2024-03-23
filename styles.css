@@ -47,7 +47,7 @@
     justify-content: space-between;
     background: var(--bg-color);
     padding: 18px 100px;
-    box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.137);
   }
   .logo {
     font-size: 1.2rem;
@@ -96,9 +96,12 @@
     padding: 10px 20px;
     border-radius: 0.5rem;
     color: #fff;
-  }
-  .btn:hover {
+    transition: box-shadow 0.3s easy;
+}
+
+.btn:hover {
     background: #ffa400;
+    box-shadow: 0 0 8px  rgb(0, 252, 176);
   }
   .about {
     display: grid;
@@ -110,6 +113,7 @@
     max-width: 80%;
     border-radius: 0.5rem;
   }
+
   .about-text span {
     color: var(--main-color);
     font-weight: 500;
@@ -147,7 +151,13 @@
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgb(4 64 54 / 10%);
     padding: 10px;
+    transition: box-shadow 0.3s easy;
   }
+  .box:hover {
+      box-shadow: 0 0 10px  rgb(0, 252, 176);
+    
+  }
+  
   .box-img {
     width: 200px;
     height: 200px;
