@@ -335,3 +335,27 @@
       padding-top: 4rem;
     }
   }
+.buybutton{
+  display: inline-block;
+  background: var(--main-color);
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  color: #fff;
+  transition: box-shadow 0.3s easy;
+}
+.buybutton:hover {
+  background: #ffa400;
+  box-shadow: 0 0 8px  rgb(0, 252, 176);
+}
+.about-img{
+  transition: box-shadow 0.3s easy;
+}
+.about-img:hover {
+  box-shadow: 0 0 8px  rgb(0, 252, 176);
+}
+.home-img{
+  transition: box-shadow 0.3s easy;
+}
+.home-img:hover {
+  box-shadow: 0 0 8px  rgb(0, 252, 176);
+}
