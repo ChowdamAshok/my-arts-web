@@ -38,6 +38,7 @@
   }
   header {
     position: fixed;
+    background-image=url("logo-1.jpeg");
     width: 100%;
     top: 0;
     right: 0;
