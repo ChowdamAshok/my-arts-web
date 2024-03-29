@@ -81,7 +81,7 @@
   }
   .home-img img {
     width: 100%;
-      filter: drop-shadow (10px 7px 10px orange);
+    box-shadow: 5px 5px 7px black;
   }
   .home-text h1 {
     font-size: var(--big-font);
@@ -113,7 +113,7 @@
   .about-img img {
     max-width: 80%;
     border-radius: 0.5rem;
-    filter: drop-shadow (10px 7px 10px orange);
+    box-shadow: 5px 7px 10px black;
   }
 
   .about-text span {
